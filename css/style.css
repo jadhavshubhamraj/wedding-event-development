@@ -1,0 +1,421 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --heading-font-family: 'Great Vibes', cursive;
+  --h1Heading-font-family: 'Amatic SC', cursive;
+  --body-font-family: "Open Sans", sans-serif;
+  --bs-text-color: #FFFFFF;
+  --section-bg-color: #e9e9e9;
+}
+
+body {
+  font-family: var(--body-font-family);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #000;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+a {
+  color: var(--bs-text-color);
+}
+
+a:hover {
+  color: var(--bs-text-color);
+}
+
+/* 320px view  */
+h2 {
+  font-family: var(--heading-font-family);
+}
+
+.navigation {
+  height: 80px;
+  position: absolute;
+  z-index: 1;
+}
+
+.navigation-wrapper {
+  width: 100%;
+  height: 100%;
+  color: var(--bs-text-color);
+  font-size: 1.50rem;
+}
+
+.navigation-wrapper h4 {
+  font-size: 1.8rem;
+  font-family: var(--heading-font-family);
+}
+
+.hero-section {
+  background-image: url(../images/background/header-bg.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--bs-text-color);
+  padding: 100px 0px;
+  position: relative;
+}
+
+h1 {
+  font-family: var(--h1Heading-font-family);
+  font-size: 50px;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.my-hero {
+  height: 75vh;
+  width: 100%;
+}
+
+.my-hero h2 {
+  font-size: 40px;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  font-weight: 300;
+  line-height: 43px;
+}
+
+.section {
+  padding: 3em 0;
+}
+
+.heading {
+  margin-bottom: 70px;
+}
+
+.heading h2 {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-size: 50px;
+  color: #000;
+}
+
+.heading p {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.groom, .bride {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.groom-desc, .bride-desc {
+  text-align: center;
+}
+
+.couple-wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.groom img, .bride img {
+  width: 150px;
+  height: 150px;
+}
+
+.section-two-wrapper h3 {
+  font-family: var(--body-font-family);
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.groom-wrap, .bride-wrap {
+  margin-bottom: 40px;
+  padding: 0 10px;
+}
+
+.countdown {
+  background-image: url(../images/background/countdown-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.countdown-wrapper {
+  margin-bottom: 9em;
+}
+
+.countdown-wrapper h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.countdown-wrapper p {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.countdown ul li h4 {
+  font-size: 35px;
+  font-family: var(--heading-font-family);
+}
+
+.wed-event {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2;
+}
+
+.heading small {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.all {
+  border-bottom: 1px solid;
+  margin-bottom: 50px;
+}
+
+.all ul {
+  text-align: center;
+  margin: 0;
+  margin: 0 auto;
+
+}
+
+.all ul li {
+  padding: 0 10px 10px 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#gallary-all {
+  border-bottom: 2px solid black;
+}
+
+.gallary div img {
+  border: 10px solid rgba(0, 0, 0, 0);
+}
+
+.btn-lg {
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 0;
+  padding: 14px 42px 14px 42px;
+}
+
+#guest {
+  background-image: url(../images/background/counter-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.feature-center {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.counter-value {
+  font-size: 50px;
+  line-height: 1;
+  color: var(--bs-text-color);
+  font-weight: 100;
+  display: block;
+}
+
+.counter-label {
+  margin-bottom: 0;
+  text-transform: lowercase;
+  color: var(--bs-text-color);
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+}
+
+.friend {
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.friend img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.friend-info h6 {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.friend-info p {
+  margin: 30px auto;
+}
+
+.friend-info em {
+  font-style: italic;
+  color: #8f989f;
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+.footer {
+  background-image: url(../images/background/banner-bottom.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.banner-bottom {
+  padding: 10em 0 3em;
+}
+
+.banner h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.social-icon {
+  font-size: 20px;
+}
+
+@media(min-width: 576px) {
+  .navigation-wrapper ul li a {
+    text-transform: capitalize;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .section {
+    padding: 7em 0;
+  }
+
+  h1 {
+    font-size: 150px;
+  }
+
+  .groom {
+    float: right;
+    margin-left: 20px;
+  }
+
+  .groom-desc {
+    padding-right: 180px;
+    text-align: right;
+  }
+
+  .bride {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .bride-desc {
+    padding-left: 180px;
+    text-align: left;
+  }
+
+  .countdown-wrapper h2 {
+    font-size: 50px;
+    line-height: 1.5;
+  }
+
+  .countdown-wrapper p, .para {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .countdown h4 {
+    line-height: 1.7;
+  }
+
+  .timer li span {
+    display: block;
+    font-size: 43px;
+  }
+
+  .timer li {
+    line-height: 0.5;
+  }
+
+  .gallary div {
+    padding: 0;
+  }
+
+  .feature-center {
+    margin-bottom: 0;
+  }
+
+  .copyright {
+    margin-top: 7em;
+  }
+}
+
+@media(min-width: 992px) {
+  .navigation-wrapper li a {
+    padding: 8px 16px;
+  }
+
+  #home {
+    text-align: center;
+    border-bottom: 1.5px solid white;
+  }
+
+  .groom-wrap, .bride-wrap {
+    margin-bottom: 0;
+  }
+
+  .groom-wrap {
+    padding-right: 28px;
+  }
+
+  .bride-wrap {
+    padding-left: 28px;
+  }
+
+  .couple-wrap {
+    width: 100%;
+    /* position: relative; */
+  }
+
+  .heart {
+    font-size: 22px;
+    position: relative;
+    left: 49%;
+    bottom: 150px;
+  }
+
+  .para-one {
+    width: 49%;
+  }
+}
+
+@media(min-width:1200px) {
+  .heart {
+    left: 49%;
+    bottom: 120px;
+  }
+}
